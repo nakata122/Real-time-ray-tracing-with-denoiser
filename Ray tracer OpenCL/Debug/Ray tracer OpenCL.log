@@ -1,0 +1,2 @@
+﻿  Ray tracer OpenCL.cpp
+d:\c++\ray tracer opencl\ray tracer opencl\ray tracer opencl.cpp(144): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?

@@ -1,0 +1,30 @@
+<kernel>:1:2574: warning: passing 'const __attribute__((address_space(16776963))) int *__attribute__((address_space(16776963)))' to parameter of type '__attribute__((address_space(16776963))) unsigned int *' discards qualifiers
+<kernel>:1:729: note: passing argument to parameter 'seed0' here
+<kernel>:1:2581: warning: passing 'const __attribute__((address_space(16776963))) int *__attribute__((address_space(16776963)))' to parameter of type '__attribute__((address_space(16776963))) unsigned int *' discards qualifiers
+<kernel>:1:750: note: passing argument to parameter 'seed1' here
+<kernel>:1:2617: warning: passing 'const __attribute__((address_space(16776963))) int *__attribute__((address_space(16776963)))' to parameter of type '__attribute__((address_space(16776963))) unsigned int *' discards qualifiers
+<kernel>:1:729: note: passing argument to parameter 'seed0' here
+<kernel>:1:2624: warning: passing 'const __attribute__((address_space(16776963))) int *__attribute__((address_space(16776963)))' to parameter of type '__attribute__((address_space(16776963))) unsigned int *' discards qualifiers
+<kernel>:1:750: note: passing argument to parameter 'seed1' here
+<kernel>:1:5030: warning: incompatible pointer to integer conversion initializing '__attribute__((address_space(16776963))) int' with an expression of type 'const __attribute__((address_space(16776963))) int *__attribute__((address_space(16776963)))'
+<kernel>:1:5053: warning: incompatible pointer to integer conversion initializing '__attribute__((address_space(16776963))) int' with an expression of type 'const __attribute__((address_space(16776963))) int *__attribute__((address_space(16776963)))'
+<kernel>:1:5471: error: can't convert between vector values of different size ('float3' and 'double')
+<kernel>:1:6053: warning: incompatible integer to pointer conversion passing '__attribute__((address_space(16776963))) int' to parameter of type '__attribute__((address_space(16776963))) unsigned int *'
+<kernel>:1:729: note: passing argument to parameter 'seed0' here
+<kernel>:1:6064: warning: incompatible integer to pointer conversion passing '__attribute__((address_space(16776963))) int' to parameter of type '__attribute__((address_space(16776963))) unsigned int *'
+<kernel>:1:750: note: passing argument to parameter 'seed1' here
+<kernel>:1:6114: warning: incompatible integer to pointer conversion passing '__attribute__((address_space(16776963))) int' to parameter of type '__attribute__((address_space(16776963))) unsigned int *'
+<kernel>:1:729: note: passing argument to parameter 'seed0' here
+<kernel>:1:6125: warning: incompatible integer to pointer conversion passing '__attribute__((address_space(16776963))) int' to parameter of type '__attribute__((address_space(16776963))) unsigned int *'
+<kernel>:1:750: note: passing argument to parameter 'seed1' here
+<kernel>:1:8124: warning: passing 'const __constant Camera *__attribute__((address_space(16776963)))' (aka 'const __constant struct Camera *__attribute__((address_space(16776963)))') to parameter of type '__constant Camera *' (aka '__constant struct Camera *') discards qualifiers
+<kernel>:1:1287: note: passing argument to parameter 'cam' here
+<kernel>:1:8129: warning: passing '__attribute__((address_space(16776963))) unsigned int *' to parameter of type 'const __attribute__((address_space(16776963))) int *' converts between pointers to integer types with different sign
+<kernel>:1:1303: note: passing argument to parameter 'seed0' here
+<kernel>:1:8137: warning: passing '__attribute__((address_space(16776963))) unsigned int *' to parameter of type 'const __attribute__((address_space(16776963))) int *' converts between pointers to integer types with different sign
+<kernel>:1:1321: note: passing argument to parameter 'seed1' here
+<kernel>:1:8199: warning: passing '__attribute__((address_space(16776963))) unsigned int *' to parameter of type 'const __attribute__((address_space(16776963))) int *' converts between pointers to integer types with different sign
+<kernel>:1:4890: note: passing argument to parameter 'seed0' here
+<kernel>:1:8207: warning: passing '__attribute__((address_space(16776963))) unsigned int *' to parameter of type 'const __attribute__((address_space(16776963))) int *' converts between pointers to integer types with different sign
+<kernel>:1:4908: note: passing argument to parameter 'seed1' here
+
